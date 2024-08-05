@@ -1,4 +1,3 @@
-import type { DomainEntityType } from '@ky-infra/project-type';
 export class DomainService {
   static #instance: DomainService;
   private constructor() {}
@@ -9,7 +8,7 @@ export class DomainService {
     return DomainService.#instance;
   }
 
-  async domainFunctionForOtherDomain(): Promise<DomainEntityType | any> {
+  async domainFunctionForOtherDomain(): Promise<any> {
     // todo
 
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@ky-infra/project-service",
+  "name": "@ky-client/psy-coach-service",
   "version": "0.0.1",
   "description": "domain back api",
   "author": "ky",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ky-infra/common": "^0.0.121",
-    "@ky-infra/project-type": "workspace:^0.0.1"
+    "@ky-client/psy-coach-type": "workspace:^0.0.1"
   },
   "devDependencies": {
     "@types/node": "20.2.3",
