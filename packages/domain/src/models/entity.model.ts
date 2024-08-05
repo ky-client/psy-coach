@@ -1,5 +1,4 @@
 import { Severity, getModelForClass, modelOptions, prop } from '@typegoose/typegoose';
-import { DomainEntityType } from '@ky-infra/project-type';
 @modelOptions({
   schemaOptions: {
     collection: 'TableName',
@@ -29,9 +28,6 @@ export class DomainEntity {
 
   @prop()
   password?: string;
-
-  @prop()
-  json?: DomainEntityType
 
   @prop()
   promotionSource?: string;
